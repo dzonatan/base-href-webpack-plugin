@@ -21,7 +21,7 @@ plugins: [
 ]
 ```
 
-If `null` is passed to baseHref then plugin **nothing does** (index.html is untouched)
+If `null` is passed to baseHref then plugin **nothing does** (template is untouched).
 
 # Contribution
 
