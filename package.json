@@ -6,6 +6,10 @@
   "files": [
     "index.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dzonatan/base-href-webpack-plugin.git"
+  },
   "scripts": {
     "build": "babel ./es6 --presets es2015 --out-dir .",
     "watch": "babel --watch ./es6 --presets es2015 --out-dir .",
