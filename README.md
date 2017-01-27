@@ -14,6 +14,8 @@ So keep sure you have installed and used it.
 # Usage
 
 ```javascript
+const {BaseHrefWebpackPlugin} = require('base-href-webpack-plugin')
+//...
 plugins: [
   new BaseHrefWebpackPlugin({
     baseHref: '/'
