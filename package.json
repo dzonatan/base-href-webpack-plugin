@@ -1,6 +1,6 @@
 {
   "name": "base-href-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Webpack plugin for inserting base href tag in head block",
   "main": "./build/index.js",
   "typings": "index.d.ts",
