@@ -4,16 +4,13 @@
   "description": "Webpack plugin for inserting base href tag in head block",
   "main": "./build/index.js",
   "typings": "index.d.ts",
-  "files": [
-    "index.js"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/dzonatan/base-href-webpack-plugin.git"
   },
   "scripts": {
-    "build": "babel ./index.js --presets es2015 --out-dir ./build",
-    "watch": "babel --watch ./index.js --presets es2015 --out-dir ./build",
+    "build": "babel ./index.js --presets es2015 --source-maps --out-dir ./build",
+    "watch": "babel --watch ./index.js --presets es2015 --source-maps --out-dir ./build",
     "prepublish": "npm run build",
     "pretest": "npm run build",
     "test": "jasmine ./index.spec.js"
