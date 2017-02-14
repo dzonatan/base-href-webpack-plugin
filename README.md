@@ -2,6 +2,7 @@
 
 [![Dependency Status](https://gemnasium.com/badges/github.com/dzonatan/base-href-webpack-plugin.svg)](https://gemnasium.com/github.com/dzonatan/base-href-webpack-plugin)
 [![npm version](https://badge.fury.io/js/base-href-webpack-plugin.svg)](https://badge.fury.io/js/base-href-webpack-plugin)
+[![Build Status](https://travis-ci.org/dzonatan/base-href-webpack-plugin.svg?branch=master)](https://travis-ci.org/dzonatan/base-href-webpack-plugin)
 
 **Webpack plugin** for inserting **base href tag** in head block.
 
