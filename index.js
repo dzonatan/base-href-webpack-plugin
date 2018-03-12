@@ -9,7 +9,7 @@ export class BaseHrefWebpackPlugin {
     }
 
     compiler.plugin('compilation', (compilation) => {
-      compilation.plugin('html-webpack-plugin-before-html-processing', (htmlPluginData, callback) => {
+         compilation.hooks.htmlWebpackPluginBeforeHtmlProcessing.tapAsync('BaseHrefWebpackPlugin', (htmlPluginData, callback) => {
         // Check if base tag already exists
         const baseTagRegex = /<base.*?>/i;
         const baseTagMatches = htmlPluginData.html.match(baseTagRegex);
