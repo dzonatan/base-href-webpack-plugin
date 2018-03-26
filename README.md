@@ -1,4 +1,4 @@
-# base-href-webpack-plugin (extension for html-webpack-plugin)
+# base-href-webpack-plugin (extension)
 
 [![Dependency Status](https://gemnasium.com/badges/github.com/dzonatan/base-href-webpack-plugin.svg)](https://gemnasium.com/github.com/dzonatan/base-href-webpack-plugin)
 [![npm version](https://badge.fury.io/js/base-href-webpack-plugin.svg)](https://badge.fury.io/js/base-href-webpack-plugin)
