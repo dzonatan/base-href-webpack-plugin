@@ -1,5 +1,5 @@
 /node_modules/
+/spec/
 
 /.travis.yml
-/index.spec.js
 /index.js
