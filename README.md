@@ -13,10 +13,10 @@ So make sure you have installed `npm i --save-dev html-webpack-plugin`.
 
 # Installation
 
-For webpack v3:  
+For webpack v3 use ^1.0.0:  
 `npm i --save-dev base-href-webpack-plugin@1`
 
-For webpack v4:  
+For webpack v4 use ^2.0.0:  
 `npm i --save-dev base-href-webpack-plugin`
 
 # Usage
