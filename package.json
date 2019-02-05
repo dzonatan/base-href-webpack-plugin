@@ -24,6 +24,7 @@
   "author": "Rokas Brazdzionis <rokas.brazdzionis@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
+    "@types/webpack": "^4.4.24",
     "html-webpack-plugin": "^3.0.0",
     "webpack": "^4.0.0"
   },
