@@ -1,3 +1,5 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 export class BaseHrefWebpackPlugin {
   constructor(options) {
     this.options = options;
@@ -9,7 +11,7 @@ export class BaseHrefWebpackPlugin {
     }
 
     compiler.hooks.compilation.tap('BaseHrefWebpackPlugin', (compilation) => {
-      compilation.hooks.htmlWebpackPluginBeforeHtmlProcessing.tapAsync('BaseHrefWebpackPlugin', (data, callback) => {
+      HtmlWebpackPlugin.getHooks(compilation).beforeEmit.tapAsync('BaseHrefWebpackPlugin', (data, callback) => {
         // Check if base tag already exists
         const baseTagRegex = /<base.*?>/i;
         const baseTagMatches = data.html.match(baseTagRegex);

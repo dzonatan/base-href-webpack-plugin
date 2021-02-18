@@ -1,6 +1,6 @@
 {
   "name": "base-href-webpack-plugin",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Webpack plugin for inserting base href tag in head block",
   "main": "./build/index.js",
   "typings": "index.d.ts",
@@ -24,17 +24,16 @@
   "author": "Rokas Brazdzionis <rokas.brazdzionis@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "@types/webpack": "^4.4.24",
-    "html-webpack-plugin": "^3.0.0",
-    "webpack": "^4.0.0"
+    "html-webpack-plugin": "^4.0.0",
+    "webpack": "^5.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-preset-es2015": "^6.9.0",
     "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.1.0",
+    "html-webpack-plugin": "^4.5.2",
     "jasmine": "^2.5.3",
     "rimraf": "^2.6.2",
-    "webpack": "^4.2.0"
+    "webpack": "^5.23.0"
   }
 }
