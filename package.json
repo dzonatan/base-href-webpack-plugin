@@ -1,9 +1,9 @@
 {
   "name": "base-href-webpack-plugin",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Webpack plugin for inserting base href tag in head block",
   "main": "./build/index.js",
-  "typings": "index.d.ts",
+  "types": "index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/dzonatan/base-href-webpack-plugin.git"
@@ -13,7 +13,8 @@
     "watch": "babel --watch ./index.js --presets es2015 --source-maps --out-dir ./build",
     "prepublish": "npm run build",
     "pretest": "npm run build",
-    "test": "jasmine ./spec/plugin.spec.js"
+    "test": "jasmine ./spec/plugin.spec.js && npm run tsd",
+    "tsd": "tsd"
   },
   "keywords": [
     "base",
@@ -34,6 +35,7 @@
     "html-webpack-plugin": "^4.5.2",
     "jasmine": "^2.5.3",
     "rimraf": "^2.6.2",
+    "tsd": "^0.14.0",
     "webpack": "^5.23.0"
   }
 }

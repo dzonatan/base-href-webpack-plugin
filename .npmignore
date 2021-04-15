@@ -3,3 +3,4 @@
 
 /.travis.yml
 /index.js
+/index.test-d.ts

@@ -1,11 +1,11 @@
-declare module 'base-href-webpack-plugin' {
-  import { Plugin } from 'webpack';
+import { Compiler, WebpackPluginInstance } from 'webpack';
 
-  interface BaseHrefWebpackPluginOptions {
-    baseHref?: string
-  }
+declare interface BaseHrefWebpackPluginOptions {
+  baseHref?: string
+}
 
-  class BaseHrefWebpackPlugin extends Plugin {
-    constructor(options: BaseHrefWebpackPluginOptions);
-  }
+declare class BaseHrefWebpackPlugin implements WebpackPluginInstance {
+  constructor(options: BaseHrefWebpackPluginOptions);
+
+  apply: (compiler: Compiler) => void;
 }
