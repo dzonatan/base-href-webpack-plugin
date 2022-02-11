@@ -4,6 +4,10 @@
 
 Extension for [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin) to programmatically insert or update `<base href="" />` tag.
 
+# Deprecation notice ⚠️
+
+You probably don't need this plugin as `html-webpack-plugin` supports this [feature natively](https://github.com/jantimon/html-webpack-plugin#base-tag).
+
 # Prerequisites
 
 This plugin is an extension of [html-webpack-plugin](https://github.com/ampedandwired/html-webpack-plugin).  
